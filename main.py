@@ -21,7 +21,7 @@ ticket1 = officer1.inspect_car(car1, meter1)
 
 #Since the car is parkede legally, no ticket should be issued
 if ticket1 is None:
-    print("Result: Car is legally parked. No ticket issued.")
+    print("Car is legally parked. No ticket issued.")
 else:
     print(ticket1)
 
