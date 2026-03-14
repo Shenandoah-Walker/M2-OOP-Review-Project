@@ -16,7 +16,7 @@ c2 = Circle(0, 0, 9, "Circle_2")
 
 #Create two rectangles with different dimensions
 r1 = Rectangle(10, 20, "Rectangle_1")
-r2 = Rectangle(16, 47, "Rectangle_2")
+r2 = Rectangle(20, 30, "Rectangle_2")
 
 #Create a square
 s1 = Square(10, "Square")
