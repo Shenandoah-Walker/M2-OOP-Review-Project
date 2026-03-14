@@ -2,7 +2,7 @@
 
 class ParkedCar:
   #This method takes inputs to create a ParkedCar object that contains the make, model, color, license number, and minutes parked of a parked car.
-  def __init__(self, make, model, color, license_number, minutes_parked=60):
+  def __init__(self, make, model, color, license_number, minutes_parked = 60):
       self.__make = make
       self.__model = model
       self.__color = color
