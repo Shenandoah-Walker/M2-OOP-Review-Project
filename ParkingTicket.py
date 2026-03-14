@@ -23,9 +23,10 @@ class ParkingTicket:
     #This method returns a string containing the ticket information.
     def __str__(self):
         return (
-            "Car: " + str(self.__car) +
-            "\nOfficer Name: " + self.__officer_name +
-            "\nBadge Number: " + self.__badge_number +
-            "\nIllegal Minutes: " + str(self.__illegal_minutes) +
-            "\nFine: $" + str(self.__fine)
+            "Parking Ticket:\n"
+            f"{self.__car}\n"   # <-- uses ParkedCar.__str__()
+            f"Illegal Minutes: {self.__illegal_minutes}\n"
+            f"Fine: ${self.__fine}\n"
+            f"Issued By: {self.__officer_name}, Badge {self.__badge_number}"
         )
+  
