@@ -11,7 +11,7 @@ class ParkingMeter:
       return self.__minutes_purchased
 
    #This method sets the number of minutes of parking time purchased. It also validates the input to ensure it is a positive number.
-   def set_minutes_purchased(self, minutes_purchased, minutes)
+   def set_minutes_purchased(self, minutes_purchased, minutes):
     if (minutes > 0):
       self.__minutes_purchased = minutes
     else:

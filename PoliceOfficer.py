@@ -1,8 +1,5 @@
 class  PoliceOfficer:
 
-   #inherit the the ParkedCar class and the ParkingMeter class
-   from ParkedCar import ParkedCar
-   from ParkingMeter import ParkingMeter
 
   #This method takes inputs to create a PoliceOfficer object that contains the officer's name and badge number.
 
