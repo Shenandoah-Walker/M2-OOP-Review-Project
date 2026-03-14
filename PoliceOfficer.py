@@ -1,7 +1,6 @@
 from ParkingTicket import ParkingTicket
 
 class PoliceOfficer:
-   
 
    #This method takes inputs to create a PoliceOfficer object that contains the officer's name and badge number.
     def __init__(self, name, badge_number):
