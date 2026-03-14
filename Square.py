@@ -2,7 +2,7 @@
 
 from Rectangle import Rectangle
 
-class Sqaure(Rectangle):
+class Square(Rectangle):
 
    #This method will contain 1 protected attribute: side
    def __init__(self, side, name = "Square"):
